@@ -48,12 +48,40 @@
                     <input type="date" id="date"><br>
                     <label for="deneyim" class="titles">Sektör Deneyimi</label>
                     <select name="deneyim" id="deneyim">
-                        <option name="deneyim" id="deneyim">1-5 Yıl</option>
-                        <option name="deneyim" id="deneyim">6-10 Yıl<option>
-                        <option name="deneyim" id="deneyim">11-15 Yıl</option>
-                        <option name="deneyim" id="deneyim">15 Üzeri</option>
+                        <option value="1-5">1-5 Yıl</option>
+                        <option value="6-10">6-10 Yıl</option>
+                        <option value="11-15" >11-15 Yıl</option>
+                        <option value="15+" >15 Üzeri</option>
+                    </select><br>
+                    <label for="prog" class="titles">Programlama Dilleri</label>
+                    <select name="prog" id="prog">
+                        <option value="C#">C#</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Java">Java</option>
+                        <option value="JavaSvript">JavaScript</option>
+                        <option value="Pyhton">Pyhton</option>
+                        <option value="C++">C++</option>
+                        <option value="C">C</option>
                     </select>
                 </filedset>
+            </div>
+            <div class="form-1">
+                <fieldset class="form-2">
+                    <legend>Sözleşme Kopyası</legend>
+                        <textarea name="" id="" cols="30" rows="10"   readonly>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus hic dicta aperiam recusandae vitae, iste voluptatibus atque nostrum maiores. Ipsum architecto molestiae aperiam dolorum magni, veniam ducimus excepturi explicabo ullam qui repellendus assumenda cumque cupiditate voluptas reiciendis repudiandae culpa quae.
+                        </textarea>
+                </fieldset>
+            </div>
+
+            <div class="form-1">
+                <fieldset class="form-2">
+                    <legend>Mail Listesi</legend>
+                    <label for="mail-list"  class="titles">Mail listesine katılmak<b>istiyorum</b></label>
+                    <input type="radio" name="coise" id="mail-list"><br>
+                    <label for="mail-list2" class="titles">Mail listesine katılmak <b><u>istemiyorum</u></b></label>
+                    <input type="radio" name="coise" id="mail-list2"><br>
+                </fieldset>
             </div>
 
         </form>
