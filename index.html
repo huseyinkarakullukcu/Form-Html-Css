@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
+
 <body>
     <div class="container">
         <h1 class="form-title">
@@ -13,7 +15,7 @@
         </h1>
         <form action="">
             <div class="form-1">
-                <fieldset>
+                <fieldset class="form-2">
                     <legend>
                         Sözleşme Onayı
                     </legend>
@@ -21,22 +23,42 @@
                     <input type="submit" value="Formu Kaydet"> <input type="submit" value="Formu Temizle">
                 </fieldset>
             </div>
-            <div class="form-2">
-                <legend>Kişisel Bilgiler</legend>
-                <label for="security-id">Form Güvenlik ID</label>
-                <input type="text" disabled value="123456">
-                <label for="ad" class="titles">Ad</label>
-                <input type="text" id="ad" name="ad"><br>
-                <label for="soyad" class="titles">Soyad</label>
-                <input type="text" name="soyad" id="soyad"><br>
-                <label for="yas" class="titles">Yaş</label>
-                <input type="number" name="yas" id="yas" min="18" max="59"><br>
-                <label for="email" class="titles">Email Adresi</label>
-                <input type="email" name="mail" id="mail"><br>
-                <label for="img" class="titles" >Fotoğraf Ekle</label>
-                <input type="file" name="imd" id="img">
+            <div class="form-1">
+                <fieldset class="form-2">
+                    <legend>Kişisel Bilgiler</legend>
+                    <label for="security-id">Form Güvenlik ID</label>
+                    <input type="text" disabled value="123456">
+                    <label for="ad" class="titles">Ad</label>
+                    <input type="text" id="ad" name="ad"><br>
+                    <label for="soyad" class="titles">Soyad</label>
+                    <input type="text" name="soyad" id="soyad"><br>
+                    <label for="yas" class="titles">Yaş</label>
+                    <input type="number" name="yas" id="yas" min="18" max="59"><br>
+                    <label for="email" class="titles">Email Adresi</label>
+                    <input type="email" name="mail" id="mail"><br>
+                    <label for="img" class="titles">Fotoğraf Ekle</label>
+                    <input type="file" name="imd" id="img">
+                </fieldset>
             </div>
+            <div class="form-1">
+                <filedset class="form-2">
+                    <legend>Diğer Bilgiler</legend>
+                    <p><strong>Buradaki alanlar mesleki bilgileri kapsar</strong></p>
+                    <label for="date" class="titles">Sektöre Giriş Tarihi</label>
+                    <input type="date" id="date"><br>
+                    <label for="deneyim" class="titles">Sektör Deneyimi</label>
+                    <select name="deneyim" id="deneyim">
+                        <option name="deneyim" id="deneyim">1-5 Yıl</option>
+                        <option name="deneyim" id="deneyim">6-10 Yıl<option>
+                        <option name="deneyim" id="deneyim">11-15 Yıl</option>
+                        <option name="deneyim" id="deneyim">15 Üzeri</option>
+                    </select>
+                </filedset>
+            </div>
+
         </form>
+
     </div>
 </body>
+
 </html>
