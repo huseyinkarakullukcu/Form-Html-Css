@@ -20,15 +20,17 @@
                     <legend>
                         Sözleşme Onayı
                     </legend>
-                    <input type="checkbox" name="onay" id="onay"> Aşağıdaki bilgileri onaylıyorum<br>
-                    <input type="submit" value="Formu Kaydet"> <input type="submit" value="Formu Temizle">
+                    <label for="onay">
+                        <input type="checkbox" name="onay" id="onay"> Aşağıdaki bilgileri onaylıyorum<br>
+                    </label>
+                    <input type="submit" value="Formu Kaydet"> <input type="reset" value="Formu Temizle">
                 </fieldset>
             </div>
             <div class="form-1">
                 <fieldset class="form-2">
                     <legend>Kişisel Bilgiler</legend>
-                    <label for="security-id">Form Güvenlik ID</label>
-                    <input type="text" disabled value="123456">
+                    <label for="security-id" class="titles">Form Güvenlik ID</label>
+                    <input type="text" disabled value="123456"><br>
                     <label for="ad" class="titles">Ad</label>
                     <input type="text" id="ad" name="ad"><br>
                     <label for="soyad" class="titles">Soyad</label>
@@ -42,7 +44,7 @@
                 </fieldset>
             </div>
             <div class="form-1">
-                <filedset class="form-2">
+                <fieldset class="form-2">
                     <legend>Diğer Bilgiler</legend>
                     <p><strong>Buradaki alanlar mesleki bilgileri kapsar</strong></p>
                     <label for="date" class="titles">Sektöre Giriş Tarihi</label>
